@@ -1,0 +1,147 @@
+/* Colors: #E54E79;
+#E56385;
+#00B2A9;
+#75726C;
+#EDE9E2 */ 
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #E54E79;
+}
+/* nav bar */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.brand-logo img {
+    position: absolute;
+    width: 60px;
+    /* margin: 0 auto; */
+    margin: 10px 50%;
+}
+
+.principal {
+    height: 100vh;
+    background-image: url(http://ridesharecodes.com/wp-content/uploads/2017/02/cropped-Lyft-Promo-Codes-car-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.principal .caja-blanca {
+    background-color: rgba(237, 233, 226, 1);
+    position: absolute;
+    right: 0;
+    top: 16%;
+    box-sizing: border-box;
+    padding: 40px 60px 50px 40px;
+}
+
+.principal .caja-blanca h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00B2A9;
+    ;
+    font-size: 1.8em;
+}
+
+.principal .caja-blanca h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #75726C;
+    font-size: 1em;
+}
+
+.principal .caja-blanca .btn-big {
+    border-radius: 15px;
+    background-color: darksalmon;
+    height: 45px;
+    line-height: 45px;
+}
+
+.juego {
+    background-color: salmon;
+    padding: 40px 0;
+}
+
+
+/* formulario menu */
+
+/*Implementacion de la decoración del juego*/
+
+#start-button {
+    background-color: salmon;
+
+    font-size: xx-large;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #173b49;
+}
+
+/* ocultar botton star*/
+
+.classHidden {
+    display: none;
+}
+
+/* paredes */
+
+.pared {
+
+    background-image: url('../img/casa.png');
+    background-repeat: no-repeat;
+
+    /*padding: 10px;*/
+}
+
+.camino {
+    background-color: #921835;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    height: 20px;
+}
+
+.inicioFin {
+    /*background-color: #F5F805;*/
+    background-image: url('../img/familia.png');
+    background-repeat: no-repeat;
+    color: transparent;
+    z-index: 1;
+}
+
+.bolita {
+    background-image: url('../img/coche.png');
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+}
